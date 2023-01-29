@@ -1,0 +1,21 @@
+{
+  "name": "patikanode",
+  "version": "1.0.0",
+  "description": "\"# PatikaNode.JS\"",
+  "main": "Odev1.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismetcanbyk/PatikaNode.JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismetcanbyk/PatikaNode.JS/issues"
+  },
+  "homepage": "https://github.com/ismetcanbyk/PatikaNode.JS#readme"
+}
