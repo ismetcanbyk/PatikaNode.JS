@@ -16,8 +16,8 @@
 
 const test = ()=>{
     const pro1 = new Promise((resolve,reject)=>{
-        //resolve("Tabi efendim ");
-        reject("hata");
+        resolve("çalıştır ");
+        //reject("hata");
     })
     
     console.log("test fonk çalıştı");
@@ -27,12 +27,20 @@ const test = ()=>{
 
 
 
-test()
-    .then((value)=>{
-        console.log("çalıştı laa");
-        console.log(value);
-    }).catch((err)=>{
-        console.log(err)
-    })
+// test()
+//     .then((value)=>{
+//         console.log("çalıştı ");
+//         console.log(value);
+//     }).catch((err)=>{
+//         console.log(err)
+//     })
 
 
+
+
+async function deneme() {
+    const calısma = await test();
+    console.log(calısma);
+}
+
+deneme()
