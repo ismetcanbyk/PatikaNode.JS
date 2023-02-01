@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ismetcanbyk/PatikaNode.JS/issues"
   },
-  "homepage": "https://github.com/ismetcanbyk/PatikaNode.JS#readme"
+  "homepage": "https://github.com/ismetcanbyk/PatikaNode.JS#readme",
+  "dependencies": {
+    "koa": "^2.14.1"
+  }
 }
